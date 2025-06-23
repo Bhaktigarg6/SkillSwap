@@ -41,14 +41,6 @@ Tired of learning in silos? SkillSwap connects learners with mentors directly fo
 | **Design**  | Pastel UI + Poppins/Nunito Fonts |
 
 ---
-
-## 📸 Screenshots (Coming Soon)
-
-<!-- Add screenshots or demo GIFs here in a /docs folder -->
-<!-- ![Dashboard Preview](docs/dashboard.png) -->
-
----
-
 ## 🚧 Project Status
 
 - ✅ MVP Completed  
@@ -72,6 +64,19 @@ SkillSwap/
 ├── login.php / signup.php / index.php etc.
 
 ---
+---
+
+## 🙋‍♀️ About Me  
+
+Hey there! I’m **Bhakti Garg**, a curious mind currently in my 3rd year of Computer Science at **Banasthali Vidyapith** 💡  
+I love building things that *actually work* — especially web apps that connect people, solve real-world problems, or just look cool doing it 💻✨
+
+I’m mostly in the **backend zone** (PHP + MySQL is my jam), but I’ve been exploring front-end magic and APIs too. Projects like **SkillSwap** are where I turn ideas into code.
+
+🎯 Focused. Practical. Always learning.
+
+Let’s connect and build something impactful:  
+[GitHub](https://github.com/Bhaktigarg6) | [LinkedIn](https://www.linkedin.com/in/bhakti-garg-90bb62255)
 
 ---
 
