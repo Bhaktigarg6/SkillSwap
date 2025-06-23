@@ -1,0 +1,297 @@
+body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #fdf6f8;
+            color: #333;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #fff0f5;
+            padding: 1rem 2rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            border-radius: 0 0 1.2rem 1.2rem;
+        }
+
+        .left, .center, .right {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        .site-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #e91e63;
+        }
+
+        .tagline {
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #aa66aa;
+        }
+
+        .user-name {
+            font-weight: 500;
+            margin-right: 1rem;
+        }
+
+        .logout-btn {
+            background: #f8a5c2;
+            padding: 0.5rem 1rem;
+            border-radius: 12px;
+            text-decoration: none;
+            color: white;
+            transition: background 0.3s ease;
+        }
+
+        .logout-btn:hover {
+            background: #f672a7;
+        }
+
+        .dashboard {
+            padding: 2rem;
+        }
+
+        .profile-card {
+            display: flex;
+            align-items: center;
+            background: #fff0f5;
+            border-radius: 1.2rem;
+            padding: 1rem 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            gap: 1.5rem;
+        }
+
+        .profile-card img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 3px solid #f8a5c2;
+        }
+
+        .profile-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .profile-info h2 {
+            margin: 0;
+            font-size: 1.8rem;
+            color: #4a4a4a;
+        }
+
+        .profile-info p {
+            margin: 4px 0;
+            font-size: 1rem;
+            color: #666;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card {
+            background: #fff;
+            padding: 1.5rem;
+            border-radius: 1.2rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            margin-bottom: 0.5rem;
+            color: #e91e63;
+        }
+
+        .card p {
+            color: #555;
+        }
+
+        .suggested-matches-section {
+    margin-top: 3rem;
+    padding: 1.5rem;
+    background: #fff0f5;
+    border-radius: 1.2rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.match-card {
+    padding: 1rem;
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.6rem;
+}
+
+.match-card h3 {
+    color: #e91e63;
+}
+
+.match-card p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.match-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #f8a5c2;
+}
+
+.send-btn {
+    padding: 0.6rem 1.2rem;
+    background: #f8a5c2;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.send-btn:hover {
+    background: #f672a7;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1rem;
+    margin-right: 1.5rem;
+}
+
+.nav-links a.nav-item {
+    text-decoration: none;
+    color: #aa66aa; /* soft lavender */
+    font-weight: 500;
+    padding: 0.4rem 0.8rem;
+    border-radius: 12px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.nav-links a.nav-item:hover {
+    background: #f8a5c2;
+    color: white;
+}
+
+.nav-item.active {
+    background: #f8a5c2;
+    color: white;
+}
+
+.pending-btn {
+    background-color: #ffc107; /* soft yellow */
+    color: white;
+    cursor: not-allowed;
+}
+
+.profile-wrapper {
+    background: linear-gradient(135deg, #ffe3ec, #e0f7fa);
+    padding: 2.5rem;
+    max-width: 600px;
+    margin: 3rem auto;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+.profile-form input[type="text"],
+.profile-form input[type="email"],
+.profile-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.profile-form label {
+    font-weight: 600;
+    color: #e91e63;
+    display: block;
+    margin-top: 1.2rem;
+}
+
+.profile-form button {
+    background-color: #f8a5c2;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.4rem;
+    border-radius: 12px;
+    margin-top: 1.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.profile-form button:hover {
+    background-color: #ec729d;
+}
+.content-container {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+#chatbot-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    background-color: #9c27b0;
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    user-select: none;
+    transition: background-color 0.3s ease;
+}
+
+#chatbot-button:hover {
+    background-color: #7b1fa2;
+}
+
+html, body {
+  overflow-x: hidden;
+  position: relative;
+}
+
+#chat-history-panel {
+  z-index: 10000 !important;
+  position: fixed !important;
+}
+#chatbot-button {
+  outline: 2px dashed red; /* TEMP for debugging */
+}
+
+
+
